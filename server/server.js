@@ -22,7 +22,7 @@ app.get('/api/health', (req, res) => {
 });
 
 // Routes will be added here as you build each feature
-// app.use('/api/auth',      require('./src/routes/auth.routes'));
+   app.use('/api/auth',      require('./src/routes/auth.routes'));
 // app.use('/api/keys',      require('./src/routes/keys.routes'));
 // app.use('/api/documents', require('./src/routes/document.routes'));
 // app.use('/api/audit',     require('./src/routes/audit.routes'));
